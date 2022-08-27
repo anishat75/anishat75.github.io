@@ -1,6 +1,6 @@
 ---
 ---
-$heading_size: 20px;
+{$heading_size: 20px;
 $text_size: 13px;
 
 @mixin curhand {
@@ -66,14 +66,14 @@ $text_size: 13px;
         .project-link {
             display: inline-block;
             position: relative;
-            float: left;
+            //float: left;
         }
 
         .project-timeline {
 
             display: inline-block;
             position: relative;
-            float: right;
+            //float: right;
             font-size: $text_size;
             font-style: italic;
             vertical-align: middle;
@@ -101,3 +101,4 @@ $text_size: 13px;
     }
 }
 
+}
